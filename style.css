@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: 100hv;
+}
+.main{
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.navbar{
+	box-shadow: 0 0px 5px #efefef;
+	font-size: 24px;
+	font-family: sans-serif;
+}
+.logo{
+	height: 70px;
+	padding: 0px 50px;
+	padding-right: 15px;
+}
+.navbar-brand{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.nav-item{
+	padding: 0px 5px;
+}
+
+.nav-item a.active{
+	background-color:lightgrey;
+  	color: white;
+  	border-radius: 15px;
+}
+.a{
+	text-align: justify;
+	text-indent: 50px;
+}
+.main{
+	position: absolute;
+	width: 100%;
+}
+.form-data{
+	margin-top: 5%;
+	background-color: white;		
+}
+.form-body{
+	padding: 40px;
+}
+.form-head{
+	padding: 10px;
+	border-bottom: 2px solid #ccc;
+	
+}
+.form-head h2{
+	font-size: 22px;
+	font-weight: 700;
+}
+h3{
+	font-weight: 2px;
+}
+.form-row{
+	margin-bottom: 25px;
+}
+.form-control{
+	background-color: #f7f7;
+}
+.form-control:hover{
+	box-shadow: none;
+	border:1px solid #138396;
+}
+.btn-appointment{
+	background-color: #384823 !important;
+	border-color: black !important;
+	width: 20% !important;	
+}
+.no-margin{
+	margin: 0px;
+}
+.datepicker td, .datepicker th{
+	padding: px;
+}
+.dropdown-menu.datepicker{
+	max-width: 300px !important;
+}
+.form-row textarea{
+	width: 100%;
+
+}
+
+
